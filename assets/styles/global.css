@@ -1,3 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #101214;
+    line-height: 18px;
+    background-color: #E5E5E5;
+  }
+  
+  .highlight {
+    color: #2AAEE7; 
+  }
+  @theme {
+    --tracking-1: 0em;
+    --tracking-2: 0.025em;
+    --tracking-3: 0.05em;
+    --tracking-4: 0.1em;
+  }
